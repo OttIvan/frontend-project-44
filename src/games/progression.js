@@ -1,5 +1,12 @@
 const rules = "What number is missing in the progression?";
 
+const MIN_LENGTH = 5;
+const MAX_LENGTH = 10;
+const MIN_START = 1;
+const MAX_START = 20;
+const MIN_STEP = 1;
+const MAX_STEP = 10;
+
 const generateProgression = (start, step, length) => {
   const progression = [];
 
@@ -11,9 +18,9 @@ const generateProgression = (start, step, length) => {
 };
 
 const generateRound = () => {
-  const length = Math.floor(Math.random() * 6) + 5;
-  const start = Math.floor(Math.random() * 20) + 1;
-  const step = Math.floor(Math.random() * 10) + 1;
+  const length = Math.floor(Math.random() * (MAX_LENGTH - MIN_LENGTH + 1)) + MIN_LENGTH;
+  const start = Math.floor(Math.random() * (MAX_START - MIN_START + 1)) + MIN_START;
+  const step = Math.floor(Math.random() * (MAX_STEP - MIN_STEP + 1)) + MIN_STEP;
   const hiddenIndex = Math.floor(Math.random() * length);
 
   const progression = generateProgression(start, step, length);
