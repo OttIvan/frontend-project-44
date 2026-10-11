@@ -60,3 +60,9 @@ This recording demonstrates the Brain GCD game, including successful rounds and 
 Find the missing number in the arithmetic progression.
 
 [![asciicast](https://asciinema.org/a/K6qBLiNK9r9bjWgK.svg)](https://asciinema.org/a/K6qBLiNK9r9bjWgK)
+
+## Brain Prime
+
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+[![asciicast](https://asciinema.org/a/zJB2JhFxrijSvzSL.svg)](https://asciinema.org/a/zJB2JhFxrijSvzSL)
