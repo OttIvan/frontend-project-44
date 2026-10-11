@@ -1,31 +1,15 @@
-import readlineSync from "readline-sync";
-import welcome from "../cli.js";
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
-const playEven = () => {
-  const name = welcome();
+const generateRound = () => {
+  const number = Math.floor(Math.random() * 100) + 1;
+  const correctAnswer = isEven(number) ? "yes" : "no";
 
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-  for (let i = 0; i < 3; i += 1) {
-    const number = Math.floor(Math.random() * 100) + 1;
-
-    console.log(`Question: ${number}`);
-
-    const answer = readlineSync.question("Your answer: ");
-    const correctAnswer = isEven(number) ? "yes" : "no";
-
-    if (answer !== correctAnswer) {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${name}!`);
-      return;
-    }
-
-    console.log("Correct!");
-  }
-
-  console.log(`Congratulations, ${name}!`);
+  return [number, correctAnswer];
 };
 
-export default playEven;
+export default {
+  rules,
+  generateRound,
+};

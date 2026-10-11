@@ -42,3 +42,8 @@ cd frontend-project-44
 [![asciinema](https://asciinema.org/a/Aa1YwG1kRzjbdBC3.svg)](https://asciinema.org/a/Aa1YwG1kRzjbdBC3)
 
 This recording demonstrates package installation, the Brain Even game, a successful game, and a failed game.
+## Brain Calc
+
+[![asciinema](https://asciinema.org/a/miT8yABBtGlCSM4a.svg)](https://asciinema.org/a/miT8yABBtGlCSM4a)
+
+This recording demonstrates the Brain Calc game, including a successful game and an incorrect answer.
