@@ -36,3 +36,9 @@ cd frontend-project-44
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+
+## Brain Even
+
+[![asciinema](https://asciinema.org/a/Aa1YwG1kRzjbdBC3.svg)](https://asciinema.org/a/Aa1YwG1kRzjbdBC3)
+
+This recording demonstrates package installation, the Brain Even game, a successful game, and a failed game.
